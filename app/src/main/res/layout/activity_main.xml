@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/demo71Id"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:hint="ID"
+        />
+    <EditText
+        android:id="@+id/demo71TxtName"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:hint="Name"
+        />
+    <EditText
+        android:id="@+id/demo71TxtPrice"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:hint="Price"
+        />
+    <EditText
+        android:id="@+id/demo71TxtDes"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:hint="Des"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15sp"
+        >
+        <Button
+            android:id="@+id/demo71BtnInsert"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:layout_marginRight="5sp"
+
+            />
+        <Button
+            android:id="@+id/demo71BtnUpdate"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5sp"
+        >
+        <Button
+            android:id="@+id/demo71BtnDelete"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginRight="5sp"
+            />
+        <Button
+            android:id="@+id/demo71BtnSelect"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/demo71TvKQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Textview"
+        />
+</LinearLayout>
